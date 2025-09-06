@@ -106,7 +106,6 @@ public class NettyClientMain {
 启动服务消费者
 
 框架支持多种配置方式：
-
-注册中心：默认使用 Zookeeper，地址为 127.0.0.1:2181
-序列化方式：支持 Kryo、Protostuff、Hessian 等
-负载均衡：支持随机、轮询等策略
+* 注册中心：默认使用 Zookeeper，地址为 127.0.0.1:2181
+* 序列化方式：支持 Kryo、Protostuff、Hessian 等
+* 负载均衡：支持随机、轮询等策略
