@@ -1,0 +1,461 @@
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-09TR3IT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_382
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Azul Systems, Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Zulu\zulu-8\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\cldrdata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\crs-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\dnsns.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\jaccess.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\localedata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\nashorn.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunec.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunmscapi.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\zipfs.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\management-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Users\海\Desktop\Study Project\rpc-demo\5-registry-center\target\classes;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-all\4.1.108.Final\netty-all-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-buffer\4.1.108.Final\netty-buffer-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec\4.1.108.Final\netty-codec-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-dns\4.1.108.Final\netty-codec-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-haproxy\4.1.108.Final\netty-codec-haproxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http\4.1.108.Final\netty-codec-http-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http2\4.1.108.Final\netty-codec-http2-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-memcache\4.1.108.Final\netty-codec-memcache-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-mqtt\4.1.108.Final\netty-codec-mqtt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-redis\4.1.108.Final\netty-codec-redis-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-smtp\4.1.108.Final\netty-codec-smtp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-socks\4.1.108.Final\netty-codec-socks-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-stomp\4.1.108.Final\netty-codec-stomp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-xml\4.1.108.Final\netty-codec-xml-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-common\4.1.108.Final\netty-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler\4.1.108.Final\netty-handler-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-unix-common\4.1.108.Final\netty-transport-native-unix-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-proxy\4.1.108.Final\netty-handler-proxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-ssl-ocsp\4.1.108.Final\netty-handler-ssl-ocsp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver\4.1.108.Final\netty-resolver-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns\4.1.108.Final\netty-resolver-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport\4.1.108.Final\netty-transport-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-rxtx\4.1.108.Final\netty-transport-rxtx-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-sctp\4.1.108.Final\netty-transport-sctp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-udt\4.1.108.Final\netty-transport-udt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-epoll\4.1.108.Final\netty-transport-classes-epoll-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-kqueue\4.1.108.Final\netty-transport-classes-kqueue-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-classes-macos\4.1.108.Final\netty-resolver-dns-classes-macos-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-riscv64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\com\alibaba\fastjson2\fastjson2\2.0.57\fastjson2-2.0.57.jar;D:\apache-maven-3.9.6\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;D:\apache-maven-3.9.6\mvn_repo\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;D:\apache-maven-3.9.6\mvn_repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-x-discovery\4.0.1\curator-x-discovery-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Zulu\zulu-8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMware\bin\;D:\jdk-21.0.3+9\bin;D:\jdk-21.0.3+9\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MYSQL\mysql-8.0.32-winx64\mysql-8.0.32-winx64\bin;D:\mingw\bin;D:\MongoDB\Server\7.0\bin;D:\MongoDB\Server\7.0\mongosh-2.2.12-win32-x64\bin;D:\Erlang\Erlang OTP\bin;D:\Git\Git\cmd;D:\ffmpeg\bin;D:\apache-maven-3.5.3\bin;C:\Users\海\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\Node.js\;%SPARK_HOME%\sbin;%SPARK_HOME%\bin;C:\Users\海\AppData\Local\Microsoft\WindowsApps;;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\bin;;D:\VSCode\Microsoft VS Code\bin;D:\WebStorm 2024.3.1\bin;;C:\Users\海\AppData\Roaming\npm;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\海\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=yuiki
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\海
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=C:\Users\海\Desktop\Study Project\rpc-demo
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=101MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1787MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=121MB
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@5056dfcb
+INFO main org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:16773, server: 127.0.0.1/127.0.0.1:2181
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Default schema
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000054a00d0000, negotiated timeout = 40000
+DEBUG main-EventThread org.apache.curator.ConnectionState - Negotiated session timeout: 40000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-EventThread org.apache.curator.framework.imps.CuratorFrameworkImpl - Clearing sleep for 1 operations
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 1,4  replyHeader:: 1,52,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 2,4  replyHeader:: 2,52,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,52,0  request:: '/xhy_rpc,F  response:: s{2,2,1750414673814,1750414673814,0,1,0,0,0,1,4} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,52,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,F  response:: s{50,50,1750418405587,1750418405587,0,0,0,72057879952818176,98,0,50} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:null serverPath:null finished:false header:: 5,2  replyHeader:: 5,53,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,-1  response:: null
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0000, packet:: clientPath:null serverPath:null finished:false header:: 6,15  replyHeader:: 6,54,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,#7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,v{s{31,s{'world,'anyone}}},1  response:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,s{54,54,1750419593745,1750419593745,0,0,0,72057957500387328,98,0,54} 
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 8
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): available
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\海\AppData\Local\Temp (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: Windows
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1873805312 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 4740 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:4c:ff:fe:61:02:fc (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG main io.netty.bootstrap.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 8
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): available
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\海\AppData\Local\Temp (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: Windows
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1873805312 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-09TR3IT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_382
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Azul Systems, Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Zulu\zulu-8\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\cldrdata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\crs-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\dnsns.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\jaccess.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\localedata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\nashorn.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunec.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunmscapi.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\zipfs.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\management-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Users\海\Desktop\Study Project\rpc-demo\5-registry-center\target\classes;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-all\4.1.108.Final\netty-all-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-buffer\4.1.108.Final\netty-buffer-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec\4.1.108.Final\netty-codec-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-dns\4.1.108.Final\netty-codec-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-haproxy\4.1.108.Final\netty-codec-haproxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http\4.1.108.Final\netty-codec-http-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http2\4.1.108.Final\netty-codec-http2-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-memcache\4.1.108.Final\netty-codec-memcache-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-mqtt\4.1.108.Final\netty-codec-mqtt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-redis\4.1.108.Final\netty-codec-redis-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-smtp\4.1.108.Final\netty-codec-smtp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-socks\4.1.108.Final\netty-codec-socks-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-stomp\4.1.108.Final\netty-codec-stomp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-xml\4.1.108.Final\netty-codec-xml-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-common\4.1.108.Final\netty-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler\4.1.108.Final\netty-handler-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-unix-common\4.1.108.Final\netty-transport-native-unix-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-proxy\4.1.108.Final\netty-handler-proxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-ssl-ocsp\4.1.108.Final\netty-handler-ssl-ocsp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver\4.1.108.Final\netty-resolver-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns\4.1.108.Final\netty-resolver-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport\4.1.108.Final\netty-transport-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-rxtx\4.1.108.Final\netty-transport-rxtx-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-sctp\4.1.108.Final\netty-transport-sctp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-udt\4.1.108.Final\netty-transport-udt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-epoll\4.1.108.Final\netty-transport-classes-epoll-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-kqueue\4.1.108.Final\netty-transport-classes-kqueue-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-classes-macos\4.1.108.Final\netty-resolver-dns-classes-macos-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-riscv64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\com\alibaba\fastjson2\fastjson2\2.0.57\fastjson2-2.0.57.jar;D:\apache-maven-3.9.6\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;D:\apache-maven-3.9.6\mvn_repo\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;D:\apache-maven-3.9.6\mvn_repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-x-discovery\4.0.1\curator-x-discovery-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Zulu\zulu-8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMware\bin\;D:\jdk-21.0.3+9\bin;D:\jdk-21.0.3+9\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MYSQL\mysql-8.0.32-winx64\mysql-8.0.32-winx64\bin;D:\mingw\bin;D:\MongoDB\Server\7.0\bin;D:\MongoDB\Server\7.0\mongosh-2.2.12-win32-x64\bin;D:\Erlang\Erlang OTP\bin;D:\Git\Git\cmd;D:\ffmpeg\bin;D:\apache-maven-3.5.3\bin;C:\Users\海\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\Node.js\;%SPARK_HOME%\sbin;%SPARK_HOME%\bin;C:\Users\海\AppData\Local\Microsoft\WindowsApps;;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\bin;;D:\VSCode\Microsoft VS Code\bin;D:\WebStorm 2024.3.1\bin;;C:\Users\海\AppData\Roaming\npm;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\海\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=yuiki
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\海
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=C:\Users\海\Desktop\Study Project\rpc-demo
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=89MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1787MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=121MB
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6ec8211c
+INFO main org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:16858, server: 127.0.0.1/127.0.0.1:2181
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Default schema
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000054a00d0001, negotiated timeout = 40000
+DEBUG main-EventThread org.apache.curator.ConnectionState - Negotiated session timeout: 40000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-EventThread org.apache.curator.framework.imps.CuratorFrameworkImpl - Clearing sleep for 1 operations
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 1,4  replyHeader:: 1,55,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 2,4  replyHeader:: 2,55,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,55,0  request:: '/xhy_rpc,F  response:: s{2,2,1750414673814,1750414673814,0,1,0,0,0,1,4} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 4,12  replyHeader:: 4,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,F  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,7,0,0,0,1,54} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,55,0  request:: '/xhy_rpc/provider,F  response:: s{4,4,1750414674189,1750414674189,0,4,0,0,0,2,21} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService,F  response:: s{15,15,1750414941861,1750414941861,0,3,0,0,0,1,36} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 7,3  replyHeader:: 7,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,F  response:: s{36,36,1750416971423,1750416971423,0,7,0,0,0,1,54} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,55,-101  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/foo,F  response::  
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 finished:false header:: 9,12  replyHeader:: 9,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,T  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,7,0,0,0,1,54} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 finished:false header:: 10,12  replyHeader:: 10,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,T  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,7,0,0,0,1,54} 
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13992 (auto-detected)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 finished:false header:: 11,4  replyHeader:: 11,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,T  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{54,54,1750419593745,1750419593745,0,0,0,72057957500387328,98,0,54} 
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 finished:false header:: 12,4  replyHeader:: 12,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,T  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{54,54,1750419593745,1750419593745,0,0,0,72057957500387328,98,0,54} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0001, packet:: clientPath:null serverPath:null finished:false header:: 13,4  replyHeader:: 13,55,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,F  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{54,54,1750419593745,1750419593745,0,0,0,72057957500387328,98,0,54} 
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:4c:ff:fe:61:02:fc (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG pool-1-thread-1 io.netty.bootstrap.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-2-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1335afe7
+DEBUG nioEventLoopGroup-3-2 io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG nioEventLoopGroup-3-2 io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG nioEventLoopGroup-3-2 io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG nioEventLoopGroup-3-2 io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG nioEventLoopGroup-3-2 io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-3-2 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-3-2 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-3-2 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d652f6c
+WARN nioEventLoopGroup-3-2 io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.io.IOException: Error deserializing JSON to object
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:500)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error deserializing JSON to object
+	at org.example.socket.serialization.JsonSerialization.deserialize(JsonSerialization.java:30)
+	at org.example.socket.codec.RpcDecoder.decode(RpcDecoder.java:85)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469)
+	... 17 more
+Caused by: com.alibaba.fastjson2.JSONException: not support ClassForName : java.lang.String, you can config 'JSONReader.Feature.SupportClassForName', offset 152, character ", line 1, column 152, fastjson-version 2.0.57 {"className":"org.example.service.HelloService","methodCode":1499337176,"methodName":"hello","parameter":"xixi ~ ","parameterTypes":"java.lang.String","serviceVersion":"1.0"}
+	at com.alibaba.fastjson2.reader.ObjectReaderImplClass.readObject(ObjectReaderImplClass.java:53)
+	at com.alibaba.fastjson2.reader.ORG_1_6_RpcRequest.readObject(Unknown Source)
+	at com.alibaba.fastjson2.JSON.parseObject(JSON.java:864)
+	at org.example.socket.serialization.JsonSerialization.deserialize(JsonSerialization.java:27)
+	... 20 more
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0000 after 4ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0001 after 2ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0000 after 1ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0001 after 3ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0001 after 3ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0000 after 3ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0001 after 1ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0000 after 3ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0001 after 0ms
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-09TR3IT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_382
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Azul Systems, Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Zulu\zulu-8\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\cldrdata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\crs-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\dnsns.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\jaccess.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\localedata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\nashorn.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunec.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunmscapi.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\zipfs.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\management-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Users\海\Desktop\Study Project\rpc-demo\5-registry-center\target\classes;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-all\4.1.108.Final\netty-all-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-buffer\4.1.108.Final\netty-buffer-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec\4.1.108.Final\netty-codec-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-dns\4.1.108.Final\netty-codec-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-haproxy\4.1.108.Final\netty-codec-haproxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http\4.1.108.Final\netty-codec-http-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http2\4.1.108.Final\netty-codec-http2-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-memcache\4.1.108.Final\netty-codec-memcache-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-mqtt\4.1.108.Final\netty-codec-mqtt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-redis\4.1.108.Final\netty-codec-redis-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-smtp\4.1.108.Final\netty-codec-smtp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-socks\4.1.108.Final\netty-codec-socks-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-stomp\4.1.108.Final\netty-codec-stomp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-xml\4.1.108.Final\netty-codec-xml-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-common\4.1.108.Final\netty-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler\4.1.108.Final\netty-handler-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-unix-common\4.1.108.Final\netty-transport-native-unix-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-proxy\4.1.108.Final\netty-handler-proxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-ssl-ocsp\4.1.108.Final\netty-handler-ssl-ocsp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver\4.1.108.Final\netty-resolver-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns\4.1.108.Final\netty-resolver-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport\4.1.108.Final\netty-transport-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-rxtx\4.1.108.Final\netty-transport-rxtx-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-sctp\4.1.108.Final\netty-transport-sctp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-udt\4.1.108.Final\netty-transport-udt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-epoll\4.1.108.Final\netty-transport-classes-epoll-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-kqueue\4.1.108.Final\netty-transport-classes-kqueue-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-classes-macos\4.1.108.Final\netty-resolver-dns-classes-macos-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-riscv64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\com\alibaba\fastjson2\fastjson2\2.0.57\fastjson2-2.0.57.jar;D:\apache-maven-3.9.6\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;D:\apache-maven-3.9.6\mvn_repo\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;D:\apache-maven-3.9.6\mvn_repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-x-discovery\4.0.1\curator-x-discovery-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Zulu\zulu-8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMware\bin\;D:\jdk-21.0.3+9\bin;D:\jdk-21.0.3+9\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MYSQL\mysql-8.0.32-winx64\mysql-8.0.32-winx64\bin;D:\mingw\bin;D:\MongoDB\Server\7.0\bin;D:\MongoDB\Server\7.0\mongosh-2.2.12-win32-x64\bin;D:\Erlang\Erlang OTP\bin;D:\Git\Git\cmd;D:\ffmpeg\bin;D:\apache-maven-3.5.3\bin;C:\Users\海\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\Node.js\;%SPARK_HOME%\sbin;%SPARK_HOME%\bin;C:\Users\海\AppData\Local\Microsoft\WindowsApps;;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\bin;;D:\VSCode\Microsoft VS Code\bin;D:\WebStorm 2024.3.1\bin;;C:\Users\海\AppData\Roaming\npm;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\海\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=yuiki
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\海
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=C:\Users\海\Desktop\Study Project\rpc-demo
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=101MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1787MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=121MB
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@5056dfcb
+INFO main org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:16964, server: 127.0.0.1/127.0.0.1:2181
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Default schema
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000054a00d0002, negotiated timeout = 40000
+DEBUG main-EventThread org.apache.curator.ConnectionState - Negotiated session timeout: 40000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-EventThread org.apache.curator.framework.imps.CuratorFrameworkImpl - Clearing sleep for 1 operations
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 1,4  replyHeader:: 1,61,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,61,0  request:: '/xhy_rpc,F  response:: s{2,2,1750414673814,1750414673814,0,1,0,0,0,1,4} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 3,4  replyHeader:: 3,61,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,61,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,F  response:: s{54,54,1750419593745,1750419593745,0,0,0,72057957500387328,98,0,54} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:null serverPath:null finished:false header:: 5,2  replyHeader:: 5,62,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,-1  response:: null
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0002, packet:: clientPath:null serverPath:null finished:false header:: 6,15  replyHeader:: 6,63,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,#7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,v{s{31,s{'world,'anyone}}},1  response:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,s{63,63,1750419680260,1750419680260,0,0,0,72057957500387330,98,0,63} 
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 8
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): available
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\海\AppData\Local\Temp (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: Windows
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1873805312 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13436 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:4c:ff:fe:61:02:fc (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG main io.netty.bootstrap.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 8
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): available
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\海\AppData\Local\Temp (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: Windows
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1873805312 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-09TR3IT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_382
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Azul Systems, Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Zulu\zulu-8\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\cldrdata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\crs-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\dnsns.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\jaccess.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\localedata.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\nashorn.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunec.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunmscapi.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Zulu\zulu-8\jre\lib\ext\zipfs.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\management-agent.jar;C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Users\海\Desktop\Study Project\rpc-demo\5-registry-center\target\classes;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-all\4.1.108.Final\netty-all-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-buffer\4.1.108.Final\netty-buffer-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec\4.1.108.Final\netty-codec-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-dns\4.1.108.Final\netty-codec-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-haproxy\4.1.108.Final\netty-codec-haproxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http\4.1.108.Final\netty-codec-http-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-http2\4.1.108.Final\netty-codec-http2-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-memcache\4.1.108.Final\netty-codec-memcache-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-mqtt\4.1.108.Final\netty-codec-mqtt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-redis\4.1.108.Final\netty-codec-redis-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-smtp\4.1.108.Final\netty-codec-smtp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-socks\4.1.108.Final\netty-codec-socks-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-stomp\4.1.108.Final\netty-codec-stomp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-codec-xml\4.1.108.Final\netty-codec-xml-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-common\4.1.108.Final\netty-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler\4.1.108.Final\netty-handler-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-unix-common\4.1.108.Final\netty-transport-native-unix-common-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-proxy\4.1.108.Final\netty-handler-proxy-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-handler-ssl-ocsp\4.1.108.Final\netty-handler-ssl-ocsp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver\4.1.108.Final\netty-resolver-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns\4.1.108.Final\netty-resolver-dns-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport\4.1.108.Final\netty-transport-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-rxtx\4.1.108.Final\netty-transport-rxtx-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-sctp\4.1.108.Final\netty-transport-sctp-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-udt\4.1.108.Final\netty-transport-udt-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-epoll\4.1.108.Final\netty-transport-classes-epoll-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-classes-kqueue\4.1.108.Final\netty-transport-classes-kqueue-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-classes-macos\4.1.108.Final\netty-resolver-dns-classes-macos-4.1.108.Final.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-epoll\4.1.108.Final\netty-transport-native-epoll-4.1.108.Final-linux-riscv64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-transport-native-kqueue\4.1.108.Final\netty-transport-native-kqueue-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-x86_64.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty-resolver-dns-native-macos\4.1.108.Final\netty-resolver-dns-native-macos-4.1.108.Final-osx-aarch_64.jar;D:\apache-maven-3.9.6\mvn_repo\com\alibaba\fastjson2\fastjson2\2.0.57\fastjson2-2.0.57.jar;D:\apache-maven-3.9.6\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;D:\apache-maven-3.9.6\mvn_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;D:\apache-maven-3.9.6\mvn_repo\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;D:\apache-maven-3.9.6\mvn_repo\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;D:\apache-maven-3.9.6\mvn_repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\apache\curator\curator-x-discovery\4.0.1\curator-x-discovery-4.0.1.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;D:\apache-maven-3.9.6\mvn_repo\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Zulu\zulu-8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMware\bin\;D:\jdk-21.0.3+9\bin;D:\jdk-21.0.3+9\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MYSQL\mysql-8.0.32-winx64\mysql-8.0.32-winx64\bin;D:\mingw\bin;D:\MongoDB\Server\7.0\bin;D:\MongoDB\Server\7.0\mongosh-2.2.12-win32-x64\bin;D:\Erlang\Erlang OTP\bin;D:\Git\Git\cmd;D:\ffmpeg\bin;D:\apache-maven-3.5.3\bin;C:\Users\海\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\Node.js\;%SPARK_HOME%\sbin;%SPARK_HOME%\bin;C:\Users\海\AppData\Local\Microsoft\WindowsApps;;D:\IDEA2023.2.2\IntelliJ IDEA 2023.2.2\bin;;D:\VSCode\Microsoft VS Code\bin;D:\WebStorm 2024.3.1\bin;;C:\Users\海\AppData\Roaming\npm;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\海\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=yuiki
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\海
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=C:\Users\海\Desktop\Study Project\rpc-demo
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=89MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1787MB
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=121MB
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6ec8211c
+INFO main org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:17055, server: 127.0.0.1/127.0.0.1:2181
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Default schema
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000054a00d0003, negotiated timeout = 40000
+DEBUG main-EventThread org.apache.curator.ConnectionState - Negotiated session timeout: 40000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-EventThread org.apache.curator.framework.imps.CuratorFrameworkImpl - Clearing sleep for 1 operations
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 1,4  replyHeader:: 1,64,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/zookeeper/config serverPath:/zookeeper/config finished:false header:: 2,4  replyHeader:: 2,64,0  request:: '/zookeeper/config,T  response:: ,s{0,0,0,0,0,0,-1,0,0,0,0} 
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+INFO main-EventThread org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+DEBUG main-EventThread org.apache.curator.framework.imps.EnsembleTracker - Ignoring new config as it is empty
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,64,0  request:: '/xhy_rpc,F  response:: s{2,2,1750414673814,1750414673814,0,1,0,0,0,1,4} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 4,12  replyHeader:: 4,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,F  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,9,0,0,0,1,63} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,64,0  request:: '/xhy_rpc/provider,F  response:: s{4,4,1750414674189,1750414674189,0,5,0,0,0,1,60} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService,F  response:: s{15,15,1750414941861,1750414941861,0,3,0,0,0,1,36} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 7,3  replyHeader:: 7,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,F  response:: s{36,36,1750416971423,1750416971423,0,9,0,0,0,1,63} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,64,-101  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/foo,F  response::  
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 finished:false header:: 9,12  replyHeader:: 9,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,T  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,9,0,0,0,1,63} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0 finished:false header:: 10,12  replyHeader:: 10,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0,T  response:: v{'172.17.175.0:8081},s{36,36,1750416971423,1750416971423,0,9,0,0,0,1,63} 
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 14224 (auto-detected)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 finished:false header:: 11,4  replyHeader:: 11,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,T  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{63,63,1750419680260,1750419680260,0,0,0,72057957500387330,98,0,63} 
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 serverPath:/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081 finished:false header:: 12,4  replyHeader:: 12,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,T  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{63,63,1750419680260,1750419680260,0,0,0,72057957500387330,98,0,63} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000054a00d0003, packet:: clientPath:null serverPath:null finished:false header:: 13,4  replyHeader:: 13,64,0  request:: '/xhy_rpc/provider/org.example.service.HelloService/1.0/172.17.175.0:8081,F  response:: #7b226970223a223137322e31372e3137352e30222c22706f7274223a383038312c22736572766963654e616d65223a226f72672e6578616d706c652e736572766963652e48656c6c6f53657276696365222c2276657273696f6e223a22312e30227d,s{63,63,1750419680260,1750419680260,0,0,0,72057957500387330,98,0,63} 
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0002 after 1ms
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:4c:ff:fe:61:02:fc (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG pool-1-thread-1 io.netty.bootstrap.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-2-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bb2c543
+DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-3-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-3-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-3-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1966ee46
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0003 after 1ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0002 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0003 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000054a00d0002 after 1ms

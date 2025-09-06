@@ -1,0 +1,1 @@
+cglib=org.example.proxy.cglib.CgLibProxyFactory

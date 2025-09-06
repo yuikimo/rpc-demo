@@ -1,0 +1,2 @@
+failover=com.example.tolerant.FailoverFaultTolerantStrategy
+failFast=com.example.tolerant.FailFastFaultTolerantStrategy

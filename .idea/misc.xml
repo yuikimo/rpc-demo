@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/socket/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/invoke/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/registry-center/pom.xml" />
+        <option value="$PROJECT_DIR$/router/pom.xml" />
+        <option value="$PROJECT_DIR$/tolerant/pom.xml" />
+        <option value="$PROJECT_DIR$/filter/pom.xml" />
+        <option value="$PROJECT_DIR$/spi/pom.xml" />
+        <option value="$PROJECT_DIR$/5-registry-center/pom.xml" />
+        <option value="$PROJECT_DIR$/1-socket/pom.xml" />
+        <option value="$PROJECT_DIR$/2-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/3-invoke/pom.xml" />
+        <option value="$PROJECT_DIR$/4-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/6-router/pom.xml" />
+        <option value="$PROJECT_DIR$/9-spi/pom.xml" />
+        <option value="$PROJECT_DIR$/7-tolerant/pom.xml" />
+        <option value="$PROJECT_DIR$/8-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-provider/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="zulu-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

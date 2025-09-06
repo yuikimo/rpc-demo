@@ -1,0 +1,4 @@
+json=com.example.socket.serialization.fastjson.JsonSerialization
+jdk=com.example.socket.serialization.jdk.JdkSerialization
+kryo=com.example.socket.serialization.kryo.KryoSerialization
+hessian=com.example.socket.serialization.hessian.HessianSerialization
