@@ -46,25 +46,6 @@ public class HelloServiceImpl implements HelloService {
 }
 ```
 
-2. 启动服务提供者
-使用 @RpcScan 注解扫描服务，启动 Netty 服务器：
-```
-@RpcScan(basePackage = {"github.javaguide"})
-public class NettyServerMain {
-    public static void main(String[] args) {
-        autoRegistry();
-    }
-
-    public static void autoRegistry() {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(NettyServerMain.class);
-        NettyRpcServer nettyRpcServer = (NettyRpcServer) applicationContext.getBean("nettyRpcServer");
-        HelloService helloService = applicationContext.getBean(HelloServiceImpl.class);
-        helloService.hello(new Hello("你好fzk", "你好服务端"));
-        nettyRpcServer.start();
-    }
-}
-```
-
 服务消费端
 1. 创建服务消费者
 使用 @RpcReference 注解注入远程服务：
@@ -83,17 +64,6 @@ public class HelloController {
         for (int i = 0; i < 10; i++) {
             System.out.println(helloService.hello(new Hello("111", "222")));
         }
-    }
-}
-```
-2. 启动服务消费者
-```
-@RpcScan(basePackage = {"github.javaguide"})
-public class NettyClientMain {
-    public static void main(String[] args) throws InterruptedException {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(NettyClientMain.class);
-        HelloController helloController = (HelloController) applicationContext.getBean("helloController");
-        helloController.test();
     }
 }
 ```
