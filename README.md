@@ -100,10 +100,10 @@ public class NettyClientMain {
 }
 ```
 
-运行步骤
-启动 Zookeeper：确保 Zookeeper 在 127.0.0.1:2181 运行
-启动服务提供者
-启动服务消费者
+运行步骤:
+* 启动 Zookeeper：确保 Zookeeper 在 127.0.0.1:2181 运行
+* 启动服务提供者
+* 启动服务消费者
 
 框架支持多种配置方式：
 * 注册中心：默认使用 Zookeeper，地址为 127.0.0.1:2181
